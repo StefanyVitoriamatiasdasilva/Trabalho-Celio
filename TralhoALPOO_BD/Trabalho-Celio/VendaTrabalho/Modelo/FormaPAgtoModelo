@@ -1,0 +1,40 @@
+package Modelo;
+
+
+public class FormaPagtoModelo {
+    private int FPG_codigo;
+    private String FPG_nome;
+    private int FPG_ativo;
+
+    public FormaPagtoModelo(int FPG_codigo, String FPG_nome, int FPG_ativo) {
+        this.FPG_codigo = FPG_codigo;
+        this.FPG_nome = FPG_nome;
+        this.FPG_ativo = FPG_ativo;
+    }
+
+    public int getFPG_codigo() {
+        return FPG_codigo;
+    }
+
+    public void setFPG_codigo(int FPG_codigo) {
+        this.FPG_codigo = FPG_codigo;
+    }
+
+    public String getFPG_nome() {
+        return FPG_nome;
+    }
+
+    public void setFPG_nome(String FPG_nome) {
+        this.FPG_nome = FPG_nome;
+    }
+
+    public int getFPG_ativo() {
+        return FPG_ativo;
+    }
+
+    public void setFPG_ativo(int FPG_ativo) {
+        this.FPG_ativo = FPG_ativo;
+    }
+ 
+    
+}

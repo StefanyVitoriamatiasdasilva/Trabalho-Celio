@@ -1,0 +1,100 @@
+package Modelo;
+
+
+public class CompraModelo {
+    private int CPR_codigo;
+    private int USU_codigo;
+    private int FOR_codigo;
+    private int CPR_emissao;
+    private int CPR_valor;      
+    private int CPR_desconto;       
+    private int CPR_total;
+    private int CPR_dtentrada;      
+    private String CPR_OBS;
+
+    public CompraModelo(int CPR_codigo, int USU_codigo, int FOR_codigo, int CPR_emissao, int CPR_valor, int CPR_desconto, int CPR_total, int CPR_dtentrada, String CPR_OBS) {
+        this.CPR_codigo = CPR_codigo;
+        this.USU_codigo = USU_codigo;
+        this.FOR_codigo = FOR_codigo;
+        this.CPR_emissao = CPR_emissao;
+        this.CPR_valor = CPR_valor;
+        this.CPR_desconto = CPR_desconto;
+        this.CPR_total = CPR_total;
+        this.CPR_dtentrada = CPR_dtentrada;
+        this.CPR_OBS = CPR_OBS;
+    }
+
+    public int getCPR_codigo() {
+        return CPR_codigo;
+    }
+
+    public void setCPR_codigo(int CPR_codigo) {
+        this.CPR_codigo = CPR_codigo;
+    }
+
+    public int getUSU_codigo() {
+        return USU_codigo;
+    }
+
+    public void setUSU_codigo(int USU_codigo) {
+        this.USU_codigo = USU_codigo;
+    }
+
+    public int getFOR_codigo() {
+        return FOR_codigo;
+    }
+
+    public void setFOR_codigo(int FOR_codigo) {
+        this.FOR_codigo = FOR_codigo;
+    }
+
+    public int getCPR_emissao() {
+        return CPR_emissao;
+    }
+
+    public void setCPR_emissao(int CPR_emissao) {
+        this.CPR_emissao = CPR_emissao;
+    }
+
+    public int getCPR_valor() {
+        return CPR_valor;
+    }
+
+    public void setCPR_valor(int CPR_valor) {
+        this.CPR_valor = CPR_valor;
+    }
+
+    public int getCPR_desconto() {
+        return CPR_desconto;
+    }
+
+    public void setCPR_desconto(int CPR_desconto) {
+        this.CPR_desconto = CPR_desconto;
+    }
+
+    public int getCPR_total() {
+        return CPR_total;
+    }
+
+    public void setCPR_total(int CPR_total) {
+        this.CPR_total = CPR_total;
+    }
+
+    public int getCPR_dtentrada() {
+        return CPR_dtentrada;
+    }
+
+    public void setCPR_dtentrada(int CPR_dtentrada) {
+        this.CPR_dtentrada = CPR_dtentrada;
+    }
+
+    public String getCPR_OBS() {
+        return CPR_OBS;
+    }
+
+    public void setCPR_OBS(String CPR_OBS) {
+        this.CPR_OBS = CPR_OBS;
+    }
+    
+    
+}

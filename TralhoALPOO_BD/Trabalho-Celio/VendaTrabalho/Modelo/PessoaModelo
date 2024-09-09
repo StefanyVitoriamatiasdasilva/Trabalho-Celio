@@ -1,0 +1,117 @@
+package Modelo;
+
+public class PessoaModel {
+    private int PES_Codigo;
+    private String PES_nome;
+    private String PES_fantasia;
+    private String PES_fisica;
+    private String PES_CpfCnpj;
+    private String PES_rgie;
+    private String PES_cadrastro;
+    private String PES_endereco;
+    private String PES_numero;
+    private String PES_complemento;
+    private String PES_bairro;
+    private String PES_cidade;
+    private String PES_uf;
+    private String PES_cep;
+    private String PES_fone1;
+    private String PES_fone2;
+    private String PES_celular;
+    private String PES_site;
+    private String PES_email;
+    private String PES_ativo;
+
+    public PessoaModel(int PES_Codigo, String PES_nome, String PES_fantasia, String PES_fisica, String PES_CpfCnpj, String PES_rgie, String PES_cadrastro, String PES_endereco, String PES_numero, String PES_complemento, String PES_bairro, String PES_cidade, String PES_uf, String PES_cep, String PES_fone1, String PES_fone2, String PES_celular, String PES_site, String PES_email, String PES_ativo) {
+        this.PES_Codigo = PES_Codigo;
+        this.PES_nome = PES_nome;
+        this.PES_fantasia = PES_fantasia;
+        this.PES_fisica = PES_fisica;
+        this.PES_CpfCnpj = PES_CpfCnpj;
+        this.PES_rgie = PES_rgie;
+        this.PES_cadrastro = PES_cadrastro;
+        this.PES_endereco = PES_endereco;
+        this.PES_numero = PES_numero;
+        this.PES_complemento = PES_complemento;
+        this.PES_bairro = PES_bairro;
+        this.PES_cidade = PES_cidade;
+        this.PES_uf = PES_uf;
+        this.PES_cep = PES_cep;
+        this.PES_fone1 = PES_fone1;
+        this.PES_fone2 = PES_fone2;
+        this.PES_celular = PES_celular;
+        this.PES_site = PES_site;
+        this.PES_email = PES_email;
+        this.PES_ativo = PES_ativo;
+    }
+   
+     public int getPES_Codigo() {
+        return PES_Codigo;
+    }
+
+    public String getPES_nome() {
+        return PES_nome;
+    }
+
+    public String getPES_fantasia() {
+        return PES_fantasia;
+    }
+
+    public String getPES_fisica() {
+        return PES_fisica;
+    }
+
+    public String getPES_CpfCnpj() {
+        return PES_CpfCnpj;
+    }
+
+    public String getPES_rgie() {
+        return PES_rgie;
+    }
+
+    public String getPES_cadrastro() {
+        return PES_cadrastro;
+    }
+
+    public String getPES_endereco() {
+        return PES_endereco;
+    }
+
+    public String getPES_numero() {
+        return PES_numero;
+    }
+
+    public String getPES_complemento() {
+        return PES_complemento;
+    }
+
+    public String getPES_bairro() {
+        return PES_bairro;
+    }
+
+    public String getPES_cidade() {
+        return PES_cidade;
+    }
+
+    public String getPES_uf() {
+        return PES_uf;
+    }
+
+    public String getPES_cep() {
+        return PES_cep;
+    }
+
+    public String getPES_fone1() {
+        return PES_fone1;
+    }
+
+    public String getPES_fone2() {
+        return PES_fone2;
+    }
+
+    public String getPES_celular() {
+        return PES_celular;
+    }
+
+    public String getPES_site() {
+        return PES_

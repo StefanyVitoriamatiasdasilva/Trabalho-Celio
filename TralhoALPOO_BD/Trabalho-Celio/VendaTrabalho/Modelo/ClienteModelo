@@ -1,0 +1,41 @@
+package Modelo;
+
+
+public class ClienteModelo {
+   
+    private int CLI_codigo;
+    private int PES_codigo;
+    private int CLI_LimiteCred;
+
+    public ClienteModelo(int CLI_codigo, int PES_codigo, int CLI_LimiteCred) {
+        this.CLI_codigo = CLI_codigo;
+        this.PES_codigo = PES_codigo;
+        this.CLI_LimiteCred = CLI_LimiteCred;
+    }
+
+    public int getCLI_codigo() {
+        return CLI_codigo;
+    }
+
+    public void setCLI_codigo(int CLI_codigo) {
+        this.CLI_codigo = CLI_codigo;
+    }
+
+    public int getPES_codigo() {
+        return PES_codigo;
+    }
+
+    public void setPES_codigo(int PES_codigo) {
+        this.PES_codigo = PES_codigo;
+    }
+
+    public int getCLI_LimiteCred() {
+        return CLI_LimiteCred;
+    }
+
+    public void setCLI_LimiteCred(int CLI_LimiteCred) {
+        this.CLI_LimiteCred = CLI_LimiteCred;
+    }
+    
+    
+}

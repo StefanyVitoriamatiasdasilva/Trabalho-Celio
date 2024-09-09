@@ -1,0 +1,40 @@
+package Modelo;
+
+
+public class FornecedorModelo {
+    private int FOR_codigo;
+    private int PES_codigo;
+    private String FOR_contato;
+
+    public FornecedorModelo(int FOR_codigo, int PES_codigo, String FOR_contato) {
+        this.FOR_codigo = FOR_codigo;
+        this.PES_codigo = PES_codigo;
+        this.FOR_contato = FOR_contato;
+    }
+
+    public int getFOR_codigo() {
+        return FOR_codigo;
+    }
+
+    public void setFOR_codigo(int FOR_codigo) {
+        this.FOR_codigo = FOR_codigo;
+    }
+
+    public int getPES_codigo() {
+        return PES_codigo;
+    }
+
+    public void setPES_codigo(int PES_codigo) {
+        this.PES_codigo = PES_codigo;
+    }
+
+    public String getFOR_contato() {
+        return FOR_contato;
+    }
+
+    public void setFOR_contato(String FOR_contato) {
+        this.FOR_contato = FOR_contato;
+    }
+    
+    
+}

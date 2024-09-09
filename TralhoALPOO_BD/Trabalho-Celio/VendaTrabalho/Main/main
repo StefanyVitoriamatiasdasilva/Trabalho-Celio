@@ -1,0 +1,11 @@
+
+package Main;
+
+import Visualização.CadastroLogin;
+
+
+public class Main {
+    public static void main(String[] args) {
+       CadastroLogin obj = new CadastroLogin(); 
+    }
+}

@@ -1,0 +1,34 @@
+package UsuarioControle;
+
+import Conexão.Conectar;
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.List;
+import Modelo.UsuarioModelo;
+
+public class UsuarioControle {
+    
+    private Connection conexão = null;
+
+    public UsuarioControle() {
+       // this.Conectar = Conectar.getconexão();
+
+    }
+    
+    private List<UsuarioModelo> listausuarios;
+    
+    public ArrayList<UsuarioModelo> consultar(String filtro) throws SQLException {
+        ArrayList<UsuarioModelo> lista = null;
+        PreparedStatement stm;
+        ResultSet rs;
+        String sql = "SELECT * FROM USUARIO";
+        if (!filtro.equals("")) {
+            sql += " WHERE " + filtro;
+        }
+        stm = conexão.prepareStatement(sql);
+        rs = stm.executeQuery();
+        lista = new ArrayList<>();
+}
